@@ -3,3 +3,69 @@
 body {
   overflow: hidden;
 }
+
+.app {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.app .app__col1 {
+  width: 100%;
+  height: 5%;
+
+  background-color: #cffffe;
+}
+
+.app .app__col2 {
+  width: 100%;
+  height: 45%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.app .app__col2 .app__col2-1 {
+  width: 100%;
+  height: 100%;
+
+  background-color: #b2ebf2;
+}
+
+.app .app__col2 .app__col2-2 {
+  width: 100%;
+  height: 100%;
+
+  background-color: #bbe1fa;
+}
+
+.app .app__col3 {
+  width: 100%;
+  height: 45%;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.app .app__col3 .app__col3-1 {
+  width: 100%;
+  height: 100%;
+
+  background-color: #a6dcef;
+}
+
+.app .app__col3 .app__col3-2 {
+  width: 100%;
+  height: 100%;
+
+  background-color: #b2ebf2;
+}
+
+.app .app__col4 {
+  width: 100%;
+  height: 5%;
+
+  background-color: #cffffe;
+}
